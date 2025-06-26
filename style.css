@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+
+@font-face{
+    font-family: "ben10";
+    src: url(./assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+/* selectors select method  */
+
+/* 1. natural selectors h1 h2 p img table div  */
+/* class selectors */
+
+/* .one{
+    color: aquamarine;
+}
+.two{
+    color: blue;
+}
+
+#one{
+    color: brown;
+}
+#two{
+    color: blueviolet;
+} */
+
+/* attributes selectors */
+
+/* a[href]{
+    color: rgb(143, 79, 1);
+} */
+
+/* universal selector  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ul > *{
+    background-color: blue;
+}
+
+.colours{
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+} */
+
+
+/* font -properties 
+ */
+
+ /* 1. font size /  */
+
+
+ /* px pt rem em
+
+ 1px-0.27mm
+ 1pt-0.33mm
+ em - parent 100% 
+ rem - root 100% */
+
+ /* .font{
+    font-size: 1em;
+ }
+
+ .hello{
+    font-size: 2rem;
+ }
+
+ .box{
+    padding: 5px 10px 15px 110px;
+    border-top:10px dashed blue ;
+    border-right:20px dashed rgb(0, 255, 4) ;
+    border-bottom:19px dashed blue ;
+    border-left:20px dashed blue ;
+    margin: 190px 50px 60px 70px;
+
+
+
+
+    font-weight: 900;
+    font-family: "ben10";    font-size: 30px;
+ }
+
+.family{
+    font-family: "ben10";}
+
+.offline{
+    font-family: "ben10";
+} */
+
+/* combine select method  */
+
+.one,.two,.three,.four,.five{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(1, 35, 35);
+}
+
+/* > */
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: brown;
+}
+
+.header > .logo {
+    font-size: 30px;
+    font-weight: 900;
+    color: aliceblue;
+    padding: 18px 0 0 20px;
+}
+
+ul ol>li{
+    font-size: 50px;
+}
+
+/* css position  */
+body{
+    height: 200vh;
+}
+.box{
+    width: 150px;
+    height: 150px;
+}
+
+.one{
+    background-color: aqua;
+    position: static;
+    top: 290px;
+    left: 20px;
+}
+
+.two{
+    background-color: mediumorchid;
+   
+     position: absolute;
+     z-index: 0;
+ 
+}
+
+
+.three{
+    background-color: mediumspringgreen;
+   position: relative;
+   left: 30px;
+   z-index: -2;
+  
+ 
+   
+}
+
+.four{
+    background-color: black;
+}
+
+.first-box{
+    width: 200px;
+    height: 200px;
+    border: 10px solid blue;
+    position: relative;
+    left: 350px;
+
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+   margin-left: 36%;
+   margin-top: 36%;
+
+}
+
+.four{
+    position: sticky;
+    top: 50px;
+}
+
+.five{
+    background-color: rgb(0, 255, 136);
+    position: fixed;
+    right: 0;
+    top: 0;
+}
