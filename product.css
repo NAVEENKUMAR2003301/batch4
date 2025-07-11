@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100vw;
+}
+
+.tourist-place{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.heading{
+    width: 100%;
+    height: 10vh;
+
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.place{
+    display: inline;
+    background-color: aqua;
+}
+
+.gallery{
+    width: 100%;
+ 
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+    padding: 10px;
+}
+
+.gallery > img {
+    border: 10px solid ;
+    border-radius: 12px;
+}
+
+.big-image{
+    width: 100%;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-image > img {
+    width: 500px;
+    height: 500px;
+
+    border: 20px solid black;
+}
+
+.parent{
+    width: 100%;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.short-desc{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.gap{
+    margin-left: 100px;
+}
+
+p{
+    text-align: justify;
+    max-width: 600px;
+}
+
+@media(max-width:550px){
+    .big-image > img {
+    width: 300px;
+    height: 300px;
+
+    border: 10px solid black;
+}
+}
