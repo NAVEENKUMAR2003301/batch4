@@ -2,115 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    
 }
 
-.full-project{
-    width: 100vw;
-    height: auto;
-    margin: 20px;
+
+.box{
+    width: 200px;
+    height: 200px;
 }
 
-.full-project > *{
-    margin-top: 50px;
+.one{
+    background-color: aqua;
+    order: -1;
+}
+.two{
+    background-color: rgb(81, 0, 255);
+    order: 1;
+}
+.three{
+    background-color: rgb(255, 0, 89);
+    order: -1;
+}
+.four{
+    background-color: rgb(30, 255, 0);
+    order: 2;
+   
+}
+.five{
+    background-color: rgb(255, 255, 0);
+    order: -2;
 }
 
-.gallary>img{
-    border-radius: 25%;
-    border: 1px solid;
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
-.gallary{
-    margin-left: 200px;
-}
-
-h1{
-    display: inline;
-    background-color: yellow;
-    margin-left: 45%;
-}
-
-#big-image{
-    width: 1000px;
-    border-radius: 30%;
-}
-
-.big-gallery{
-    margin-left: 15%;
-}
-
-.about{
-    max-width: 1000px;
-    margin-left: 20%;
-}
-
-@media(max-width:1025px){
-    .gallary{
-        margin-left: 1px;
-    }
-    .big-gallery{
-        margin-left: 0;
-    }
-    .about{
-        margin-left: 0;
-    }
-}
-
-@media(max-width:769px){
-    #big-image{
-        width: 700px;
-        border-radius: 30%;
-        margin-left: 20px;
-        
-    }
-    .about{
-        max-width: 700px;
-    }
-}
-
-@media(max-width:426px){
-    h1{
-        margin-left: 30%;
-    }
-    .gallery{
-        margin-left: 1px;
-    }
-    .gallary>img{
-        border-radius: 25%;
-        border: 1px solid;
-
-        width: 200px;
-    }
-    #big-image{
-        width: 400px;
-        border-radius: 30%;
-        margin-left: 2px;
-        
-    }
-}
-@media(max-width:376px){
-    h1{
-        margin-left: 26%;
-    }
-    .gallery{
-        margin-left: 1px;
-    }
-    .gallary>img{
-        border-radius: 25%;
-        border: 1px solid;
-
-        width: 150px;
-    }
-    #big-image{
-        width: 300px;
-        border-radius: 30%;
-        margin-left: 2px;
-        
-    }
-}
-
-@media(max-width:321px){
-    .full-project{
-        margin: 1px;
-    }
-}

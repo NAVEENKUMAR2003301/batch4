@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.parent{
+  display: grid;
+  grid-template-columns:200px 200px minmax(600px,900px);
+  grid-template-rows:300px 200px ;
+  gap: 50px;
+}
+
+.child1,.child2,.child3{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+
+/* fixed sizing  */
+
+/* numerical number  */
+
+
+/* auto size  */
+
+/* auto / */
+
+/* fractional size  */
+
+/* fr  */
+
+/* minmax size  */
+
+/* two value 200px- staic value , 500px- end value */
