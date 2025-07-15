@@ -208,3 +208,9 @@ h1{
 .contact>a:hover{
    color: orange;
 }
+
+
+button{
+    position: relative;
+    z-index: 12;
+}

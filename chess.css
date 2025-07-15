@@ -19,17 +19,48 @@ body{
 }
 
 .parent{
-  display: grid;
-  grid-template-columns:200px 200px minmax(600px,900px);
-  grid-template-rows:300px 200px ;
-  gap: 50px;
+display: grid;
+ grid-template-columns: 100px 200px 300px;
+ grid-template-rows: 300px 300px;
 }
+
+/* num - fixed  */
+
+/* auto - responsive  */
+
+/* fr - responsive  */
+
+/* minmax(min,max) */
+
+.cowpoy{
+    background-color: aqua;
+    
+}
+.apple{
+    background-color: black;
+   grid-area: 1 / 1 / -2 / -3;
+
+}
+
+.book{
+    background-color: white;
+    grid-area: 2 / 3 / -1 / -1;
+}
+
+
+
+
+
 
 .child1,.child2,.child3{
     width: 200px;
     height: 200px;
     background-color: aliceblue;
     border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
