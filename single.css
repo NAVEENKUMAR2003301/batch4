@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.header1{
+    width: 100vw;
+    height: 5vh;
+    background-color: #f8f8f8;
+    padding: 5px;
+    border: 2px solid #c9c5c5ca;
+
+    position: fixed;
+    z-index: 2;
+}
+
+.mail-icon > a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.location-icon{
+    position: absolute;
+    top: 5px;
+    left: 650px;
+}
+
+.location-icon > a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.home>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.properties > a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.prop-detials>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact >a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.face{
+     position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.tweet{
+     position: absolute;
+    top: 5px;
+    right: 40px;
+}
+.insta{
+     position: absolute;
+    top: 5px;
+    right: 70px;
+}
+.link{
+     position: absolute;
+    top: 5px;
+    right: 100px;
+}
+
+.header2{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(250, 250, 250);
+
+    position: fixed;
+    top: 30px;
+
+    z-index: 1;
+}
+
+.logo > a{
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 30px;
+
+  position: relative;
+  top: 25px;
+  left: 50px;
+}
+
+
+.home{
+    position: absolute;
+    left: 600px;
+}
+
+.properties{
+     position: absolute;
+    left: 655px;
+}
+
+.prop-detials{
+     position: absolute;
+    left: 740px;
+}
+.contact{
+     position: absolute;
+    left: 885px;
+}
+
+.shedule >a{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.shedule{
+
+    width: 150px;
+    position: absolute;
+    right: 50px;
+
+    background-color: orange;
+    border-radius: 5px;
+
+    padding-left: 40px;
+}
+
+img{
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+}
+
+h1{
+    position: relative;
+    z-index: 4;
+    top: 350px;
+    left: 100px;
+
+    max-width: 400px;
+    color: white;
+}
+
+
+.white{
+    position: relative;
+    z-index: 10;
+    max-width: 120px;
+    padding-left: 5px;
+    background-color: #f8f8f8;
+
+    border-radius: 2px;
+
+    top: 200px;
+    left: 100px;
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.orange{
+    color: rgb(255, 166, 0);
+}
+
+
+.home>a:hover{
+   color: orange;
+}
+.properties>a:hover{
+   color: orange;
+}
+.prop-detials>a:hover{
+   color: orange;
+}
+.contact>a:hover{
+   color: orange;
+}
